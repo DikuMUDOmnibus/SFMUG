@@ -1,0 +1,99 @@
+CC      = gcc
+MAKE	= make
+#PROF   = -p
+#NOCRYPT =
+
+#    Uncomment the line below if you'll be using gdb for debugging information
+USE_GDB = gdb
+
+#    The program executable's name
+PROG_NAME = 13C
+
+#    Uncomment the two lines below if compiling on a Solaris box
+#SOLARIS_FLAG = -Dsun -DSYSV
+#SOLARIS_LINK = -lnsl -lsocket
+
+#    Uncomment the line below if compiling on a RedHat (and possibly other Linux) box
+LINUX = -DLINUX
+
+#    Uncomment the line below if you are getting a line like:
+#interp.c:757: warning: int format, time_t arg (arg 7)
+#TIME = -DTIMEFORMAT
+
+#    Uncomment the line below to enable Intermud-3 support
+I3 = 1
+
+#    Uncomment the line below if you are getting undefined crypt errors
+NEED_CRYPT = -lcrypt
+
+#    Directory locations of important lib files
+LIBDIR	= ./lib
+
+#    Modify the lines below if you want a performance increase though beware your core
+#    files may not be as much of a benefit if you do. Suggested OPT_FLAG: -O
+OPT_LEVEL = 
+OPT_FLAG = -O$(OPT_LEVEL)
+
+#    Format check flags
+#FMT_FLG = -Wformat -Wformat-security -Wmissing-format-attribute
+
+#    Warning check flags
+WRN_FLG = -Wall -Wuninitialized -Werror
+
+#    Compile and Link flags
+CMP_FLG = -g$(USE_GDB)3 $(WRN_FLG) $(FMT_FLG)
+C_FLAGS = $(OPT_FLAG) $(CMP_FLG) $(PROF) $(NOCRYPT) $(SOLARIS_FLAG) $(TIME) $(LINUX)
+L_FLAGS = $(OPT_FLAG) $(PROF) $(SOLARIS_LINK) $(NEED_CRYPT) -L$(LIBDIR)
+
+#    Listing of all '.o' files necessary to create the program binary
+O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o ban.o bank.o boards.o \
+          build.o clans.o colorize.o comm.o comments.o const.o copyover.o db.o deity.o \
+          fight.o handler.o hashstr.o ident.o imm_host.o interp.o magic.o misc.o morespace.o mud_comm.o \
+          mud_prog.o news.o planets.o player.o polymorph.o quest.o reset.o save.o services.o shops.o \
+          skills.o space.o special.o swskills.o tables.o track.o update.o
+
+#    Listing of all '.c' files necessary to create the program binary (similar to above)
+C_FILES = act_comm.c act_info.c act_move.c act_obj.c act_wiz.c ban.c bank.c boards.c \
+          build.c clans.c colorize.c comm.c comments.c const.c copyover.c db.c deity.c \
+          fight.c handler.c hashstr.c ident.c imm_host.c interp.c magic.c misc.c morespace.c mud_comm.c \
+          mud_prog.c news.c planets.c player.c polymorph.c quest.c reset.c save.c services.c shops.c \
+          skills.c space.c special.c swskills.c tables.c track.c update.c
+
+#    Listing of all '.h' files necessary to create the program binary
+H_FILES = ban.h bank.h bet.h copyover.h files.h mud.h news.h quest.h
+
+#    I3 implementation routines
+ifdef I3
+    C_FILES := i3.c $(C_FILES)
+    O_FILES := i3.o $(O_FILES)
+    H_FILES := i3.h i3cfg.h $(H_FILES)
+    C_FLAGS := $(C_FLAGS) -DI3 -DI3CHRONICLES
+endif
+
+all:
+	@echo ""
+	@echo "(@)=======[ Chronicles Codebase ]=======(@)"
+	@echo " Checking Chronicles, recompiling if necessary  "
+	@$(MAKE) $(PROG_NAME)
+	@echo " ..done"
+	@echo "(@)=====================================(@)"
+
+$(PROG_NAME): $(O_FILES)
+	@echo ""
+	@echo " Compiling MUD systems into binary now  "
+	@rm -f $(PROG_NAME)
+	@$(CC) $(L_FLAGS) -o $(PROG_NAME) $(O_FILES)
+	@chmod g+w $(PROG_NAME)
+	@chmod a+x $(PROG_NAME)
+	@chmod g+w $(O_FILES)
+	@chmod a+x startup
+
+.c.o: $(H_FILES)
+	$(CC) -c $(C_FLAGS) $<
+
+clean:
+	@echo "(@)=======[ Chronicles Codebase ]=======(@)"
+	@echo " Cleaning up object and binary files  "
+	@rm -f *.o $(PROG_NAME) *~
+	@echo " ..done"
+	@echo "(@)=====================================(@)"

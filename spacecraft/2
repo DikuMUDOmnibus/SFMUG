@@ -1,0 +1,89 @@
+#SHIP
+Name         The Good Ship Bling Bling~
+Filename     2~
+Description  The console in front of you contains the spacecrafts primary flight
+controls. All of the ships propulsion and directional controls are located
+here including the hyperdrive controls.
+~
+Description  A large panoramic viewscreen gives you a good view of everything
+outside of the ship. Several computer terminals provide information
+and status readouts. There are also consoles dedicated to scanning
+communications and navigation.
+~
+Description  This is where the action is. All of the systems main offensive and defensive
+controls are located here. There are targetting computers for the main laser
+batteries and missile launchers as well as shield controls.
+~
+Description  ~
+Description  
+The air feels very clean here. insturments lay on tables, and near the
+large examination table. This is where the ship surgen is usually on staff
+
+~
+Description  
+This is the entrance ramp, type leave to exit the ship.
+
+~
+Description  ~
+Description  Many large mechanical parts litter this room. Throughout the room dozens
+of small glowing readouts and computer terminals monitor and provide information
+about all of the ships systems. Engineering is the heart of the ship. If
+something is damaged fixing it will almost always start here.
+~
+Description  ~
+Description  
+This large area is for incomming ships. containers of supplies are
+stacked and straped in on the sides.
+
+~
+Description  
+This is where land and atmosperic vehicles can be stored.
+
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Owner        ash~
+Pilot        ~
+Copilot      ~
+Model        9
+Class        0
+Tractorbeam  0
+Shipyard     0
+Laserstate   0
+Lasers       6
+Missiles     20
+Maxmissiles  20
+Lastdoc      1202
+On_ship      ~
+Shield       0
+Maxshield    350
+Hull         10000
+Maxhull      10000
+Maxenergy    15000
+Hyperspeed   100
+Chaff        0
+Maxchaff     0
+Realspeed    50
+Type         0
+Shipstate    1
+Missilestate 0
+Energy       14810
+Manuever     50
+Home         ~
+End
+
+#END

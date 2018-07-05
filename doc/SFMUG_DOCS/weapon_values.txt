@@ -1,0 +1,66 @@
+This is a hopefully helpfull little guid of some of the changes from stock smaug that are present.
+At the time of this writing, projectile weapons are not 100% the way I would like.
+-Lews
+
+
+ITEM_MISSILE_WEAPON:
+Condition V0
+Bonus Damage V1
+Bonus Damage Max V2
+ammo v3
+weapontype V4
+Projectile needed V5
+
+ITEM_PROJECTILE
+capacity V0
+damage min V1
+Damage Max V2
+damage type V3
+projectile type V4
+ammo V5
+
+dam types:
+Value3 | Type
+---------------------------------------------------------
+   00  | hit
+   01  | slash
+   02  | stab
+   03  | hack
+   04  | crush
+   05  | lash
+   06  | pierce
+   07  | thrust
+   08  | slug
+   09  | blast
+   10  | slance
+
+weapon types:
+Value4 | Type
+---------------------------------------------------------
+   00  | barehand
+   01  | sword
+   02  | dagger
+   03  | whip
+   04  | talon (talonous arms)
+   05  | mace (includes hammer)
+   06  | archery (includes arrows and crossbow bolts)
+   07  | blowgun
+   08  | sling
+   09  | axe
+   10  | spear
+   11  | staff
+   12  | slug thrower (guns)
+   13  | blasters
+   14  | shock lance
+
+
+projectile types:
+Value4 | Type
+---------------------------------------------------------
+   00  | bolt
+   01  | arrow
+   02  | dart
+   03  | stone
+   04  | bullet (includes clips)
+   05  | energy (includes clips)
+   06  | energy (for shock lance)

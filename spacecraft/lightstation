@@ -1,0 +1,114 @@
+#SHIP
+Name         Light Station~
+Filename     lightstation~
+Description  ~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  This large area is for incomming ships. containers of supplies are
+stacked and straped in on the sides.
+
+~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  ~
+Description  The air feels very clean here. insturments lay on tables, and near the
+large examination table. This is where the ship surgen is usually on staff
+
+~
+Description  The crew lounge needs to be furnished still.
+
+~
+Description  ~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  This turbo laser turret extends from the outter hull of the ship.
+It is more powerful than the ships main laser batteries and must
+be operated manually by a trained gunner.
+~
+Description  ~
+Description  A large panoramic viewscreen gives you a good view of everything
+outside of the ship. Several computer terminals provide information
+and status readouts. There are also consoles dedicated to scanning
+communications and navigation.
+~
+Description  This is where the action is. All of the systems main offensive and defensive
+controls are located here. There are targetting computers for the main laser
+batteries and missile launchers as well as shield controls.
+~
+Owner        Lews~
+Pilot        ~
+Copilot      ~
+Model        12
+Class        2
+Tractorbeam  1
+Shipyard     1202
+Laserstate   0
+Lasers       4
+Missiles     20
+Maxmissiles  20
+Lastdoc      1202
+On_ship      ~
+Shield       500
+Maxshield    500
+Hull         1000
+Maxhull      1000
+Maxenergy    2000
+Hyperspeed   0
+Chaff        0
+Maxchaff     0
+Realspeed    0
+Type         0
+Shipstate    1
+Missilestate 0
+Energy       2000
+Manuever     0
+Home         Altair~
+End
+
+#END

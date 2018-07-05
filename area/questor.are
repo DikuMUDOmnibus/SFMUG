@@ -1,0 +1,667 @@
+#AREA The Questmaster's Office~
+
+#VERSION 0
+
+#AUTHOR Asmodean~
+
+#RANGES
+10 100 0 105
+$
+
+#RESETMSG A soft request for wisdom fills the air.~
+
+#FLAGS
+20 15
+
+#ECONOMY 0 125000000
+
+#CLIMATE 0 0 0
+
+#HELPS
+0 $~
+
+#MOBILES
+#200
+first mob~
+a newly created first mob~
+Some god abandoned a newly created first mob here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#201
+quest qm questmaster master~
+The Questmaster~
+The Questmaster stands here, silently awaiting new adventurers.
+~
+~
+67240003 168 0 C
+100 0 0 100d100+0 100d100+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 24 80 207 1 1 0
+0 0 38911 0 4194303 0 38911 0
+#202
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#299
+last mob~
+a newly created last mob~
+Some god abandoned a newly created last mob here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+#0
+
+
+#OBJECTS
+#200
+circle first life~
+The Circle of Life~
+A small yellow circle lies here, glowing brightly.~
+~
+18 524353 1 
+0 0 0 0
+1 500000 50000 E
+circle first life~
+The First Circle is the 'Circle of Life'. Upon looking at the circle you see the infinity of life.
+~
+> get_prog 100~
+mpforce $n examine $o
+mpechoat $n The 'Circle of Life' flashes brightly as you take it, you feel healed.
+~
+|
+#201
+circle second magic~
+The Circle of Magic~
+A small blue circle lies here, humming quietly.~
+~
+18 524354 1 
+0 0 0 0
+1 500000 50000 E
+circle second magic~
+The Second Circle is the 'Circle of Magic'. The Second Circle hums quietly, magic pulsing from every iota of it's being.
+~
+> get_prog 100~
+mpforce $n examine $o
+mpechoat $n The 'Circle of Magic' flashes brightly as you take it.
+~
+|
+#202
+third circle death~
+The Circle of Death~
+A small 'black' circle lies here.~
+~
+18 524356 1 
+0 0 0 0
+1 500000 25000 E
+third circle death~
+The Third Circle is the 'Circle of Death'. The Third Circle bleeds darkness, death pulsing from every molecule of it's being.
+~
+> get_prog 100~
+mpforce $n examine $o
+mea $n The 'Circle of Death' flashes brightly as you take it.
+mea $n A chill runs down your side and a pain through your neck.
+~
+|
+#203
+fourth circle courage~
+The Circle of Courage~
+A small silver circle lies here, glowing and humming wildly.~
+~
+18 524355 1 
+0 0 0 0
+1 500000 25000 E
+fourth circle courage~
+The Fourth Circle is the 'Circle of Courage'. The Fourth Circle sits plainly, seeming to be nothing more than a ring...
+~
+> get_prog 100~
+mpforce $n examine $o
+mpechoat $n The 'Circle of Courage' flashes brightly as you take it.
+~
+|
+#204
+fifth circle love~
+The Circle of Love~
+A small 'pink' circle lies here, vibrating wildly.~
+~
+18 524355 1 
+0 0 0 0
+1 750000 75000 E
+fifth circle love~
+The Fifth Circle is the 'Circle of Love'. The Fifth Circle hums and glows, love eminating from every part of it.
+~
+> get_prog 100~
+mpforce $n examine $o
+mpechoat $n The 'Circle of Love' flashes brightly as you take it.
+~
+|
+#205
+quest master questmaster scroll seal tightly bound~
+A tightly bound scroll~
+A scroll with the seal of the questmaster lies here...~
+~
+8 256 1 
+0 0 0 0
+1 0 0 #210
+elvenbane bane sword~
+An Elvenbane~
+An Elvenbane lies here, awaiting an owner.~
+~
+5 0 8193 
+12 40 8 7 1 0
+10 0 0 A
+13 100
+A
+12 75
+A
+20 -5
+A
+18 20
+A
+19 20
+A
+17 -100
+#211
+shadowbane bane whip~
+A Shadowbane~
+A Shadowbane lies here, awaiting an owner~
+~
+5 0 8193 
+12 40 8 1 1 0
+10 0 0 A
+13 100
+A
+12 75
+A
+20 -5
+A
+18 20
+A
+19 20
+A
+17 -100
+#212
+dwarvenbane bane mace~
+A Dwarvenbane~
+A Dwarvenbane lies here, awaiting a new owner.~
+~
+5 0 8193 
+12 40 8 3 1 0
+10 0 0 A
+13 100
+A
+12 75
+A
+20 -5
+A
+18 20
+A
+19 20
+A
+17 -100
+#213
+dragonbane bane dagger~
+A Dragonbane~
+A Dragonbane lies here, awaiting a new owner.~
+~
+5 0 8193 
+12 40 8 1 1 0
+10 0 0 A
+13 100
+A
+12 75
+A
+20 -5
+A
+18 20
+A
+19 20
+A
+17 -100
+#214
+spiritbane bane glove~
+A Spiritbane~
+A Spiritbane lies here, awaiting a new owner.~
+~
+5 0 8193 
+12 40 8 2 1 0
+10 0 0 A
+13 100
+A
+12 75
+A
+20 -5
+A
+18 20
+A
+19 20
+A
+17 -100
+#215
+lightbane bane claw~
+A Lightbane~
+A Lightbane lies here, awaiting a new owner.~
+~
+5 0 8193 
+12 40 8 1 1 0
+10 0 0 A
+13 100
+A
+12 75
+A
+20 -5
+A
+18 20
+A
+19 20
+A
+17 -100
+#216
+emerald medallion silver~
+An Emerald Medallion~
+A silver medallion lies here, the emerald within it shining brilliantly.~
+~
+8 524608 16385 
+0 0 0 0
+1 0 0 > sac_prog 100~
+cast fly $n
+cast bless $n
+cast slink $n
+cast 'trollish vigor' $n
+cast sagacity $n
+cast 'dragon wit' $n
+cast 'elven beauty' $n
+cast 'kindred strength' $n
+cast iceshield $n
+cast fireshield $n
+cast shockshield $n
+cast resilience $n
+cast 'antimagic shell' $n
+cast shield $n
+cast armor $n
+cast acidmist $n
+cast venomshield $n
+cast lightshield $n
+cast heal $n
+cast 'cure poison' $n
+cast 'remove curse' $n
+cast 'cure blindness' $n
+mea $n A blue light enshrouds your body, filling you with warmth.
+mer $n A blue light surrounds $n, as the sound of angels fills the room.
+mpecho The Gods' Avatar whispers 'The gift is bestowed, $n.'
+~
+|
+#217
+cloak infinity patch night sky twinkling~
+The Cloak of Infinity~
+A patch of the night sky lies here, twinkling.~
+~
+9 0 1025 
+14 14 0 0
+10 0 0 A
+18 13
+A
+19 9
+A
+4 4
+A
+3 6
+A
+31 3
+A
+13 100
+A
+12 200
+A
+78 5
+A
+14 250
+A
+26 65536
+A
+26 2097152
+#218
+knightbane bane lance~
+A Knightbane~
+A Knightbane lies here, awaiting a new owner.~
+~
+5 0 8193 
+12 40 8 1 1 0
+10 0 0 A
+13 100
+A
+12 75
+A
+20 -5
+A
+18 20
+A
+19 20
+A
+17 -100
+#219
+earring aeternus ethril mithril primium~
+The Earring of Aeternus~
+An earring with a chain of mithril, a holding of primium, and an inset of ethril lies here.~
+~
+9 524548 65537 
+15 15 0 0
+1 0 0 A
+19 13
+A
+18 9
+A
+4 6
+A
+3 4
+A
+25 3
+A
+13 100
+A
+12 50
+A
+78 1
+A
+14 250
+A
+26 32
+A
+26 2097152
+#220
+sword ultimate ultimalis power awesome~
+The Ultimalis Sword~
+A sword of awesome power lies here glowing.~
+~
+5 329 8193 
+12 100 4 7 1 0
+25 0 0 A
+13 200
+A
+12 125
+A
+18 35
+A
+19 35
+A
+17 -175
+A
+3 3
+A
+4 2
+A
+56 235
+E
+sword omens~
+~
+E
+sword omens~
+The Sword of Omens!
+~
+> wear_prog 100~
+if isgood($n)
+mea $n You glow a soft white as the power of the Gods flow through your veins.
+mer $n $n glows a soft white as the power of the Gods flows through $s veins.
+endif
+if isevil($n)
+mea $n You emit a dark aura as the power of the Gods flow through your veins.
+mer $n $n emits a dark aura as the power of the Gods flows through $n veins.
+endif
+if isneutral($n)
+mea $n You eyes start to solidify a dark black, and your pupils a bright white
+mea $n as you feel the power of the Gods flow through your veins.
+mer $n $n's eyes solidify to a dark black, and $s pupils to a bright white, as
+mer $n the power of the Gods flows through $s veins.
+endif
+~
+|
+#221
+anklet immortaelis verdium onyx~
+The Anklet of Immortaelis~
+Am anklet forged from the deepest of green metals, inset with an onyx stone, lies here.~
+~
+9 524608 2097153 
+10 10 0 0
+10 0 0 A
+18 6
+A
+19 5
+A
+1 3
+A
+5 2
+A
+25 3
+A
+13 50
+A
+12 75
+A
+14 100
+A
+2 1
+A
+78 1
+A
+26 32768
+A
+26 2097152
+#250
+excalibur mithril sword black~
+The Sword 'Excalibur'~
+A black-hilted sword, with a blade of pure Mithril, floats here.~
+~
+5 0 8193 
+15 100 6 1 1 0
+25 0 0 A
+13 200
+A
+12 125
+A
+18 35
+A
+19 35
+A
+17 -175
+A
+3 3
+A
+4 2
+A
+1 7
+A
+26 8192
+#251
+caliburn primium sword golden~
+The Sword 'Caliburn'~
+A black-hilted sword, with a blade of pure Primium, floats here.~
+~
+5 0 8193 
+15 100 6 1 1 0
+25 0 0 A
+13 200
+A
+12 125
+A
+18 35
+A
+19 35
+A
+17 -175
+A
+3 3
+A
+4 2
+A
+1 7
+A
+26 8192
+#252
+draconis ethril sword black~
+The Sword 'Draconis'~
+A black-hilted sword, with a blade of pure Ethril, floats here.~
+~
+5 0 8193 
+15 100 6 1 1 0
+25 0 0 A
+13 200
+A
+12 125
+A
+18 35
+A
+19 35
+A
+17 -175
+A
+3 3
+A
+4 2
+A
+1 7
+A
+26 8192
+#253
+destiny adamantite spear cobalt~
+The Spear of Destiny~
+A spear with a cobalt-shaft floats here, the head formed from pure Adamantite.~
+~
+5 0 8193 
+15 100 7 7 10 0
+25 0 0 A
+13 200
+A
+12 125
+A
+17 -175
+A
+3 3
+A
+4 2
+A
+18 40
+A
+19 40
+A
+26 128
+A
+1 10
+#299
+last object~
+a newly created last object~
+Some god dropped a newly created last object here.~
+~
+13 0 0 
+0 0 0 0
+1 0 0 #0
+
+
+#ROOMS
+#200
+The Front Office~
+The walls of the office are lined with certificates. There is a glass
+door with the letters QM in big black letters on it to the north. The only
+exit lies to the south.
+~
+0 1110746124 1 
+D0
+~
+door~
+3 -1 202
+D2
+~
+~
+1 -1 201
+S
+#201
+The Path to the Questmaster~
+The gravel path leads to the Questmaster's Office. Trees line both sides
+of the path and there are bushes blooming with a variety of flowers,
+ranging from Red Roses to the Purple and white of Star Gazers. They
+also release a wide ranging set of aromas. There is a door to the north, 
+which leads to the Questmaster's Office, while the path leads back to
+New Darkhaven.
+~
+0 37004292 1 
+D0
+~
+~
+1 -1 200
+D2
+~
+~
+0 -1 21106
+S
+#202
+The Questmaster's Chambers~
+Within the confines of this room the Questmaster gives out the challenges
+that adventurers seek to improve thier glory within the realm. Scrolls and
+parchments lay about the floor, while three of the walls have bookcases on
+them, which are crammed full of books. It is impossible to see what the
+books are or what they are about.
+~
+0 37004300 1 
+D2
+~
+door~
+3 -1 200
+S
+#203
+Floating in a void~
+~
+0 1073741828 1 
+S
+#204
+Floating in a void~
+~
+0 1073741828 1 
+S
+#205
+last~
+~
+0 1073741828 1 
+S
+#299
+Last Room~
+~
+0 1073741828 1 
+S
+#0
+
+
+#RESETS
+D 0 200 0 1
+D 0 200 2 0
+D 0 202 2 1
+M 1 201 1 202
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

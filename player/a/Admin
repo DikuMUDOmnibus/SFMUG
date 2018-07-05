@@ -1,0 +1,49 @@
+#PLAYER
+Version      3
+Name         Admin~
+Sex          0
+Class        3
+Race         0
+Languages    -1 1
+Level        105
+Played       388
+Room         1202
+HpManaMove   37 1368 100 100 620 1140
+Gold         0
+Exp          37675150
+Height          64
+Weight          145
+Act          536872520
+Position     112
+Style     2
+Practice     208
+SavingThrows 0 0 0 0 0
+Alignment    0
+AppBlood     0
+Favor	       0
+Balance      0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Mentalstate  -3
+Password     Ad4O69cwrPVg.~
+Title         the (null)~
+WizInvis     105
+Flags        32768
+PKills       0
+PDeaths      0
+MKills       0
+MDeaths      0
+IllegalPK    0
+AttrPerm     16 13 13 13 13 13 12
+AttrMod      0 0 0 0 0 0 0
+Condition    0 45 45 10
+Site         10.40.0.12
+LastNews     996751006
+Tongue       100 'common'
+i3invis	0
+End
+
+#END

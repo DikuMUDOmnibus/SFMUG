@@ -1,0 +1,53 @@
+#SYSTEM
+MudName	     A New SFMUG MUD~
+Highplayers    0
+Highplayertime Thu Jan  9 09:53:11 2003~
+CheckImmHost   1
+Nameresolving  1
+Waitforauth    0
+Readallmail    103
+Readmailfree   101
+Writemailfree  101
+Takeothersmail 104
+Muse           101
+Think          102
+Build          103
+Log            103
+Protoflag      103
+GetObjNotake   102
+Overridepriv   104
+Msetplayer     104
+Stunplrvsplr   80
+Stunregular    15
+Gougepvp       40
+Gougenontank   80
+Bashpvp        40
+Bashnontank    80
+Dodgemod       2
+Parrymod       2
+Tumblemod      4
+Damplrvsplr    100
+Damplrvsmob    100
+Dammobvsplr    100
+Dammobvsmob    100
+Forcepc        104
+Guildoverseer  ~
+Guildadvisor   ~
+Saveflags      61423
+Savefreq       1
+Bestowdif      10
+BanSiteLevel   104
+BanRaceLevel   104
+BanClassLevel  104
+MorphOpt       1
+PetSave        1
+IdentTries     20
+Pkloot         1
+ReqWhoArg      0
+WizLock        0
+ABootHour      7
+ABootMinute    0
+ABootPeriod    7
+End
+
+#END

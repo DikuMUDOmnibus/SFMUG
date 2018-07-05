@@ -1,0 +1,19 @@
+#PROTOTYPE
+Name         Space Station 1~
+Filename     station1.shp~
+Description  ~
+Class        2
+Model        12
+Tractorbeam  1
+Lasers       4
+Maxmissiles  20
+Maxshield    500
+Maxhull      5000
+Maxenergy    1000
+Hyperspeed   0
+Maxchaff     0
+Realspeed    0
+Manuever     0
+End
+
+#END

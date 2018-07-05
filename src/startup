@@ -1,0 +1,54 @@
+#! /bin/csh -f
+
+#    Set the executable name
+set exec="13C"
+
+#    Set the port number
+if ( "$1" != "" ) then
+    set port="$1"
+else
+    set port="5000"
+endif
+
+#    Change to area directory
+cd ../area
+
+#    Set limits
+nohup
+nice
+unlimit stack
+unlimit core
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while( 1 )
+    #    If you want to have logs in a different directory, change the 'set logfile' line to 
+    #    reflect the directory name
+    set index = 1000
+    while( 1 )
+	set logfile = ../log/$index.log
+	if ( ! -e $logfile ) break
+	@ index++
+    end
+
+    #    Record starting time
+    date > $logfile
+    date > ../area/boot.txt
+
+    #    Run program.
+    ../src/$exec $port >&! $logfile
+
+    #    Delete this out if no adb.
+#    if ( -e core ) then
+#	echo '$c' | adb ../src/$exec
+#	gdb -batch -x gdbcmds -s ../src/$exec -c core | mail -s "Crash Trace" email@address.some
+#	gdb -batch -x bt -c core -se ../src/$exec | mail -s "Crash Trace" email@address.some
+#	rm core
+#    endif
+
+    #    Restart, giving old connections a chance to die
+    if ( -e shutdown.txt ) then
+	rm -f shutdown.txt
+	exit 0
+    endif
+    sleep 15
+end

@@ -1,0 +1,562 @@
+#AREA Mobiles~
+
+#VERSION 0
+
+#AUTHOR SWR~
+
+#RANGES
+0 200 0 200
+$
+
+#RESETMSG ~
+
+#FLAGS
+0 0
+
+#ECONOMY 0 10000000
+
+#CLIMATE 0 0 0
+
+#HELPS
+0 $~
+
+#MOBILES
+#300
+solier thug mercinary hitman~
+a mercinary~
+A mercinary stands here ready for battle.
+~
+~
+1 0 0 C
+1 0 0 0d0+0 1d10+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+1 0 0 0 0 0 0 0
+#301
+bouncer guard thug~
+a guard~
+An alert guard stands at attention.
+~
+~
+3 0 0 C
+1 0 0 0d0+0 1d10+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#302
+soldier guard~
+a soldier~
+A mercinary patrols the area.
+~
+~
+1 0 0 C
+1 0 0 0d0+0 1d10+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 2
+#303
+trade clerk~
+a clerk~
+This clerk will buy resources that have been gathered or mined.
+~
+~
+1048579 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#304
+spaceport security guard~
+a spaceport security guard~
+A spaceport security guard watches over the platform.
+~
+~
+1073741827 0 0 C
+1 0 0 0d0+0 1d8+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#305
+bird~
+a bird~
+A bird flies around nearby.
+~
+~
+16777345 524288 0 C
+1 0 98 0d10+2 0d4+2
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+78 3 0 0 1 1 0
+0 0 553680896 0 0 0 3 0
+#306
+scavenger~
+a scavenger~
+A scavenger looks around for something to eat.
+~
+~
+16777345 0 0 C
+1 0 98 0d10+2 0d4+2
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+87 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+#307
+insect~
+an insect~
+An insect buzzes around your head.
+~
+~
+16777249 524288 0 C
+1 0 100 1d1+0 1d1+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 0 0 0 0 8 0
+#308
+preditor~
+a preditor~
+A large preditor looks hungry.
+~
+~
+33 0 0 C
+10 0 85 2d10+20 1d4+2
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+76 3 0 0 1 1 0
+2 2 268697609 0 0 0 3 0
+#309
+small animal~
+a small animal~
+A small animal pokes around the ground.
+~
+~
+16777345 0 0 C
+1 0 98 1d10+2 1d4+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 134218785 0 0 0 1 0
+#310
+fish~
+a fish~
+A fish swims by.
+~
+~
+16777345 -2147483648 0 C
+1 0 98 0d10+2 0d4+2
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+81 3 0 0 1 1 0
+1 0 148480 0 0 4 1 0
+#311
+citizen colonist woman girl man caveman boy executive peasent~
+a colonist~
+A colonist is going about his daily business.
+~
+~
+4294967425 0 10 C
+1 0 98 1d1+99 1d4+2
+10 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1575 0 0 0 0 0
+#312
+shopkeeper~
+a shopkeeper~
+A shopkeeper sells a variety of supplies.
+~
+~
+1048579 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#313
+waiter~
+a waiter~
+A waiter is waiting to take your order.
+~
+~
+1048579 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#314
+flight control officer~
+a flight control officer~
+A flight control officer monitors the orbiting fleet.
+~
+~
+1048579 0 0 C
+1 0 0 0d0+0 1d6+2
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 565 0 0 0 0 0
+#315
+bartender~
+a bartender~
+A bartender is waiting to take your order.
+~
+~
+1048579 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 1
+#316
+mechanic~
+a mechanic~
+A mechanic runs this garage.
+~
+~
+1048579 0 0 C
+1 0 100 0d0+0 0d0+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#317
+shopkeeper~
+a shopkeeper~
+This shopkeeper will pay a fair price for useful equipment.
+~
+~
+1048579 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#318
+technician~
+a technician~
+A technician works in the shipyard.
+~
+~
+1048579 0 0 C
+1 0 100 0d0+0 1d4+3
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#319
+dealer~
+a dealer~
+A young man dressed in a hooded robe looks around nervously...
+~
+~
+1048705 0 0 C
+1 0 98 1d1+99 1d4+2
+15 0
+112 112 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 70 0 0 0 0 0
+#320
+street vendor~
+a street vendor~
+A street vendor has set up shop here.
+~
+~
+131 0 0 C
+1 0 98 1d1+99 1d4+2
+5 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 15 0 0 0 0 0
+#321
+crystal dragon~
+a crystal dragon~
+A Crystal Dragon is guarding its nest.
+~
+~
+1048611 552 0 C
+50 0 0 21d10+5000 10d4+2
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+31 0 0 0 1 1 1
+21 21 8716297 0 2097152 0 16391 0
+> greet_prog 100~
+if isnpc($n) 
+mpslay $n 
+endif 
+~
+|
+#322
+scruffy thief fellow~
+a scruffy looking fellow~
+This person is trying very hard not to be noticed.
+~
+~
+131 0 0 C
+1 0 98 1d1+99 1d4+1
+15 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 609 0 0 0 0 0
+#323
+thug~
+a thug~
+This thug walks down the street shoving people out of his way.
+~
+~
+131 0 0 C
+1 0 98 1d1+99 1d6+2
+20 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#324
+street person bum~
+a street person~
+A street person survives off of the trash he finds.
+~
+~
+131 0 0 C
+1 0 98 1d1+99 1d4+2
+5 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#325
+Spaceship guard~
+a guard~
+An alert guard stands at attention.
+~
+~
+3 0 0 C
+1 0 0 0d0+0 1d10+0
+15 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#326
+alien invader~
+an alien invader~
+A grotesque creature dressed in battle armor is randomly blasting citizens.
+~
+~
+33 0 -200 C
+1 0 0 0d0+0 1d6+3
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+88 3 0 0 1 1 0
+0 0 32 0 0 0 0 0
+> greet_prog 100~
+mpkill $n 
+~
+> all_greet_prog 100~
+mpkill $n 
+~
+> entry_prog 100~
+mpkill $n 
+~
+|
+#327
+employment clerk~
+an employment clerk~
+An employment services clerk is smiling at you.
+~
+~
+1048577 0 0 C
+1 0 50 1d1+100 0d0+0
+0 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Looking for work, $n? 
+~
+> speech_prog yes job~
+mp_offer_job $n 
+~
+> speech_prog yes. yes, job?~
+mp_offer_job $n 
+~
+|
+#328
+medic~
+the ship medic~
+The ships medic is here to help you.
+~
+A man in a clean white uniform.
+He is here it heal your wounds.~
+67108867 0 90 C
+1 0 0 0d0+0 0d0+0
+5 0
+112 112 1
+0 0 0 0 0 0 0
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+#329
+citizen colonist~
+a colonist~
+A colonist is going about his daily business.
+~
+~
+129 0 10 C
+1 0 98 1d1+99 1d4+2
+10 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#330
+citizen colonist~
+a colonist~
+A colonist is going about his daily business.
+~
+~
+129 0 10 C
+1 0 98 1d1+99 1d4+2
+10 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#331
+citizen colonist~
+a colonist~
+A colonist is going about his daily business.
+~
+~
+129 0 10 C
+1 0 98 1d1+99 1d4+2
+10 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#332
+citizen colonist~
+a colonist~
+A colonist is going about his daily business.
+~
+~
+129 0 10 C
+1 0 98 1d1+99 1d4+2
+10 0
+112 112 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#0
+
+
+#ROOMS
+#300
+The Funky Mob Room~
+Dico lights blind you, as ear splitting boggie noises compel you to dance!
+~
+0 1032 0 
+D4
+up!~
+~
+128 0 21112
+S
+#0
+
+
+#RESETS
+M 0 321 0 300
+S
+
+
+#SHOPS
+ 303    9  20  24  32  37   120  90         0 220    ; a clerk
+ 313    0  0  0  0  0   120  90         0 220    ; a waiter
+ 314    20  5  0  0  0   120  90         0 220    ; a flight control officer
+ 317    2  3  6  35  0   120  90         0 220    ; a shopkeeper
+ 319    5  20  3  32  0   120  90         100 220    ; a dealer
+ 320    20  5  32  0  0   120  90         0 220    ; a street vendor
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  306 spec_fido
+M  322 spec_thief
+M  324 spec_janitor
+M  325 spec_ship_guard
+M  328 spec_medic
+S
+
+
+#$

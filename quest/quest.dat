@@ -1,0 +1,82 @@
+#QuestPrize
+VNum      210
+Cost      30000
+MinLevel  70
+MaxLevel  -1
+End
+#QuestPrize
+VNum      211
+Cost      30000
+MinLevel  70
+MaxLevel  -1
+End
+#QuestPrize
+VNum      212
+Cost      30000
+MinLevel  70
+MaxLevel  -1
+End
+#QuestPrize
+VNum      213
+Cost      30000
+MinLevel  70
+MaxLevel  -1
+End
+#QuestPrize
+VNum      214
+Cost      30000
+MinLevel  70
+MaxLevel  -1
+End
+#QuestPrize
+VNum      215
+Cost      30000
+MinLevel  70
+MaxLevel  -1
+End
+#QuestPrize
+VNum      218
+Cost      30000
+MinLevel  70
+MaxLevel  -1
+End
+#QuestPrize
+VNum      217
+Cost      15000
+MinLevel  65
+MaxLevel  -1
+End
+#QuestPrize
+VNum      219
+Cost      17500
+MinLevel  60
+MaxLevel  -1
+End
+#QuestPrize
+VNum      221
+Cost      12500
+MinLevel  25
+MaxLevel  50
+End
+#QuestPrize
+VNum      216
+Cost      50
+MinLevel  -1
+MaxLevel  20
+End
+#QuestTarget
+VNum     200
+End
+#QuestTarget
+VNum     201
+End
+#QuestTarget
+VNum     202
+End
+#QuestTarget
+VNum     203
+End
+#QuestTarget
+VNum     204
+End
+#End

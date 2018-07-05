@@ -1,0 +1,45 @@
+#I3CHAN
+ChanName   diku_chat~
+ChanMud    Alsherok~
+ChanLocal  dchat~
+ChanLayM   &O[&W%s&O] &Y%s&W@&Y%s&w: &Y%s~
+ChanLayE   &O[&W%s&O] &Y%s~
+ChanLevel  10
+ChanStatus 0
+ChanFlags  0
+End
+
+#I3CHAN
+ChanName   diku_immortals~
+ChanMud    Alsherok~
+ChanLocal  dimm~
+ChanLayM   &c[&W%s&c] &C%s&W@&C%s&w: &C%s~
+ChanLayE   &c[&W%s&c] &C%s~
+ChanLevel  101
+ChanStatus 0
+ChanFlags  0
+End
+
+#I3CHAN
+ChanName   diku_code~
+ChanMud    Alsherok~
+ChanLocal  dcode~
+ChanLayM   &b[&W%s&b] &B%s&W@&B%s&w: &B%s~
+ChanLayE   &b[&W%s&b] &B%s~
+ChanLevel  103
+ChanStatus 0
+ChanFlags  0
+End
+
+#I3CHAN
+ChanName   word_games~
+ChanMud    Thirteen Chronicles~
+ChanLocal  wgc~
+ChanLayM   &b[&W%s&b] &w%s&b@&w%s&b: &w%s~
+ChanLayE   &b[&W%s&b] &w%s~
+ChanLevel  10
+ChanStatus 0
+ChanFlags  0
+End
+
+#END

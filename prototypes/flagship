@@ -1,0 +1,19 @@
+#PROTOTYPE
+Name         Capital Ship~
+Filename     flagship~
+Description  ~
+Class        0
+Model        9
+Tractorbeam  2
+Lasers       6
+Maxmissiles  30
+Maxshield    800
+Maxhull      1200
+Maxenergy    30000
+Hyperspeed   125
+Maxchaff     0
+Realspeed    100
+Manuever     5
+End
+
+#END

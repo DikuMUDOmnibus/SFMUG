@@ -1,0 +1,235 @@
+#AREA   Gods~
+
+#AUTHOR RoD~
+
+#RANGES
+101 105 0 105
+$
+
+#RESETMSG A low humming noise can be heard.~
+
+#FLAGS
+0
+
+#ECONOMY 60000 5000
+
+#MOBILES
+#1200
+mobile~
+a mobile~
+A mobile is here.
+~
+~
+1073741825 0 0 C
+1 50 0 0d0+0 0d0+0
+100 4000
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+3 0 0 0 131073 1 0
+0 0 0 0 0 0 0 0
+#1299
+final mob~
+a newly created final mob~
+Some god abandoned a newly created final mob here.
+~
+~
+1073741825 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#0
+
+
+#OBJECTS
+#1200
+immortal board~
+the immortal board~
+Mystical sparkling colors converge here to form arcane runes...~
+~
+12 0 0
+0 0 0 0
+1 10 1
+#1299
+final object~
+a newly created final object~
+Some god dropped a newly created final object here.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#1200
+The Parlour of the Immortals~
+A quiet parlour, the fireplace in the southwest corner emits a bright glow,
+from a dark, blue flame. The crackle of magical wood fills the air along
+with the smell of smouldering cedar. To the north lies an elaborately
+shaped, white, spruce, pine door. The door-knob is made of engraved silver.
+To the east is the Imortal private spaceport.
+~
+0 3145740 0
+D0
+~
+~
+3 -1 1201
+D8
+~
+~
+0 0 1204
+D1
+Spaceport~
+~
+0 0 1202
+S
+#1201
+Lews's Sanctuary~
+You are in a large room. Tapastried of battles line the walls.
+On the floor is the symbol of the Aes'Sedi. On the eastern wall
+is a warm fireplace.
+~
+0 3146252 0
+D2
+~
+~
+3 -1 1200
+E
+fireplace~
+The fireplace contains a nice warm fire.
+~
+E
+floor~
+The Symbol of the Aes Sedi~
+E
+chair~
+It looks very comfortable.
+~
+S
+#1202
+Immortal Spaceport~
+Strange looking ships are constantly comming and going. Creatures Summoned
+by the gods to do there bidding hussle about keeping the spaceport in repair.
+~
+0 268435472 1
+D0
+~
+~
+0 0 1203
+D2
+~
+~
+0 0 1205
+D3
+Parlor~
+~
+0 0 1200
+S
+#1203
+Flight Control Tower of the Gods~
+Holographic images, and display screeens are crammed together, as
+summoned workers try to keep track of all objects inunder control
+of the gods.
+~
+0 64 0
+D2
+~
+~
+0 0 1202
+S
+#1204
+Immortal Guard Room~
+Hey even the gods need a little protection now and then.
+This looks like a farily simple barracks for the summoned creatures.
+There is a staircase that leads down to the Garage
+~
+0 32768 0
+D7
+~
+~
+0 0 1200
+D5
+To The Garage~
+~
+0 0 1208
+S
+#1205
+Grassy Field~
+This is an ideal spot for a picnic. You can hear birds chirping.
+To the north is the Spaceport. To the east is a small stream.
+To the south is a hill.. I bet you can climb it
+~
+0 0 26
+D0
+~
+~
+0 0 1202
+D1
+~
+~
+0 0 1206
+D2
+~
+~
+128 0 1207
+S
+#1206
+Small stream~
+You are standing ankle deep in water.
+~
+0 0 6
+D3
+~
+~
+0 0 1205
+S
+#1207
+Top of a hill~
+You are the King of the Mountain
+~
+0 0 4
+D0
+~
+~
+0 0 1205
+S
+#1208
+Immortal Garage~
+There are several veihicles parked here.
+A staircase leads up to the Guard room.
+There is a one way portal that leads into town.
+~
+0 0 0
+D4
+To the Guard Room~
+~
+0 0 1204
+S
+#1299
+Floating in a void~
+~
+0 1073741828 1
+S
+#0
+
+
+#RESETS
+O 1 1200 1 1200
+D 0 1201 2 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

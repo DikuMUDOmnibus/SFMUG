@@ -1,0 +1,22 @@
+#QDATA
+MinPrac        1
+MaxPrac        6
+MinGold        25000
+MaxGold        175000
+MinQp          25
+MaxQp          250
+MinQTComplete  10
+MaxQTComplete  25
+MinQTime       8
+MaxQTime       18
+QpLoss         25
+QTNQuit        30
+QTNFail        25
+QTNClear       0
+QLevelDiff     15
+QuestChance    75
+ObjectChance   55
+GiveQuest      205
+PracChance     10
+End
+#End

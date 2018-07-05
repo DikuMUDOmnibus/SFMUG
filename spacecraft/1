@@ -1,0 +1,40 @@
+#SHIP
+Name         Lewss Long Range Patrol Spacecraft 1~
+Filename     1~
+Description  Long Range Patrolcraft are identicle to the short range version,
+^Mexcept for the addition of a hyperdrive and a slightly larger fuel supply.
+^MThis makes them ideal for patroling remote sectors of a starsystem as well as
+undeveloped regions of space.  However, like the other patrol ships, the 
+^Mspacecraft is not suited for heavy combat.  
+~
+Owner        foo~
+Pilot        ~
+Copilot      ~
+Model        3
+Class        0
+Tractorbeam  0
+Shipyard     1202
+Laserstate   0
+Lasers       2
+Missiles     0
+Maxmissiles  0
+Lastdoc      0
+On_ship      ~
+Shield       0
+Maxshield    50
+Hull         100
+Maxhull      100
+Maxenergy    3500
+Hyperspeed   100
+Chaff        0
+Maxchaff     0
+Realspeed    100
+Type         0
+Shipstate    1
+Missilestate 0
+Energy       3500
+Manuever     100
+Home         Godsmack~
+End
+
+#END

@@ -1,0 +1,26 @@
+#PROTOTYPE
+Name         Long Range Patrol Spacecraft~
+Filename     LngPatrole~
+Description  Long Range Patrolcraft are identicle to the short range version,
+^Mexcept for the addition of a hyperdrive and a slightly larger fuel supply.
+^MThis makes them ideal for patroling remote sectors of a starsystem as well as
+
+undeveloped regions of space.  However, like the other patrol ships, the 
+^Mspacecraft is not suited for heavy combat.  
+
+~
+Class        0
+Model        3
+Tractorbeam  0
+Lasers       2
+Maxmissiles  0
+Maxshield    50
+Maxhull      115
+Maxenergy    3500
+Hyperspeed   100
+Maxchaff     0
+Realspeed    100
+Manuever     100
+End
+
+#END

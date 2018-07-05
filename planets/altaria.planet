@@ -1,0 +1,14 @@
+#PLANET
+Name         Alteria~
+Filename     altaria.planet~
+X            3050
+Y            2500
+Z            -8804
+Sector       5
+PopSupport   100
+Starsystem   Altair~
+GovernedBy   ~
+Area         newdark.are~
+End
+
+#END

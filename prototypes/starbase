@@ -1,0 +1,19 @@
+#PROTOTYPE
+Name         Base 3~
+Filename     starbase~
+Description  ~
+Class        2
+Model        11
+Tractorbeam  3
+Lasers       10
+Maxmissiles  10
+Maxshield    500
+Maxhull      10000
+Maxenergy    30000
+Hyperspeed   0
+Maxchaff     2
+Realspeed    0
+Manuever     0
+End
+
+#END

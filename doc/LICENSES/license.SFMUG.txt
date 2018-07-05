@@ -1,0 +1,18 @@
+  ___________________________________________________________________________
+ /                                                                           \
+|                  SFMUG - (c) 2001, 2003 Lews (Bill Sica)                   |     |                                                                            |
+ \___________________________________________________________________________/
+
+SFMUD is a merger of the Star Wars Reality codebase and Chronicles Codebase.
+All licenses must be aheared to.
+
+Also, Orion Elder requests that if you use the Chronicles codebase, that you go
+to the MUD Planet MUD Forums (http://forums.mudplanet.org) and sign up. 
+
+I don't make any warenties about anything. I ask that you send me an e-mail to my
+current e-mail address letting me know that you are useing this code. If this e-mail
+adress changes, please send one to the new address. When the SFMUG website is up,
+go to there instead to inform me.
+( lews00@yahoo.com )
+
+A final note, plase read all other licences. This codebase is subject to all of them.

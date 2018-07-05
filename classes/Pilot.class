@@ -1,0 +1,390 @@
+Name        Pilot~
+Class       10
+AttrPrime   2
+AttrSecond   0
+AttrDeficient   0
+Weapon      400
+Guild       3022
+Skilladept  90
+Thac0       18
+Thac32      7
+Hpmin       9
+Hpmax       14
+Mana        0
+Expbase     1350
+Affected    0
+Resist	 0
+Suscept	 0
+Skill 'addpatrol' 40 65
+Skill 'aggressive style' 5 75
+Skill 'aid' 6 60
+Skill 'bash' 30 75
+Skill 'climb' 2 85
+Skill 'cook' 1 95
+Skill 'defensive style' 5 90
+Skill 'dig' 2 95
+Skill 'disarm' 30 50
+Skill 'dodge' 25 70
+Skill 'doorbash' 10 75
+Skill 'dual wield' 40 75
+Skill 'enhanced damage' 35 65
+Skill 'evasive style' 4 90
+Skill 'grip' 29 80
+Skill 'hijack' 30 65
+Skill 'jab' 27 85
+Skill 'kick' 9 75
+Skill 'lunge' 32 80
+Skill 'parry' 20 65
+Skill 'pickshiplock' 35 45
+Skill 'punch' 30 80
+Skill 'rescue' 6 60
+Skill 'roundhouse' 38 60
+Skill 'scan' 48 30
+Skill 'search' 8 75
+Skill 'second attack' 18 75
+Skill 'ship maintenance' 5 90
+Skill 'standard style' 1 85
+Skill 'stun' 49 55
+Skill 'space combat' 5 95
+Skill 'spacecraft' 1 95
+Skill 'tractor beams' 10 85
+Skill 'weapon systems' 5 80
+Skill 'maces and hammers' 1 50
+Skill 'pugilism' 1 50
+Skill 'daggers' 1 75
+Skill 'slug throwers' 1 85
+Skill 'blasters' 1 65
+Skill 'celestial' 1 99
+Skill 'common' 1 99
+Skill 'dwarven' 1 99
+Skill 'elven' 1 99
+Skill 'gith' 1 99
+Skill 'gnollish' 1 99
+Skill 'gnomish' 1 99
+Skill 'goblin' 1 99
+Skill 'halfling' 1 99
+Skill 'infernal' 1 99
+Skill 'ogre' 1 99
+Skill 'orcish' 1 99
+Skill 'pixie' 1 99
+Skill 'trollese' 1 99
+Skill 'undercommon' 1 99
+Title
+Airman Basic~
+Airwoman Basic~
+Title
+Airman~
+Airwoman~
+Title
+Airman First Class~
+Airwoman First Class~
+Title
+Senior Airman~
+Senior Airwoman~
+Title
+Staff Sergeant~
+Staff Sergeant~
+Title
+Technical Sergeant~
+Technical Sergeant~
+Title
+Master Sergeant~
+Mistress Sergeant~
+Title
+First Master Sergeant~
+First Mistress Sergeant~
+Title
+Senior Master Sergeant~
+Senior Mistress Sergeant~
+Title
+First Senior Master Sergeant~
+First Senior Mistress Sergeant~
+Title
+Chief Master Sergeant~
+Chief Mistress Sergeant~
+Title
+First Chief Master Sergeant~
+First Chief Mistress Sergeant~
+Title
+Command Chief Master ~
+Command Chief Mistress ~
+Title
+Chief Master Sergeant of the Space Force~
+Chief Master Sergeant of the Space Force~
+Title
+Second Lieutenant~
+Second Lieutenant~
+Title
+Second Lieutenant~
+Second Lieutenant~
+Title
+Second Lieutenant~
+Second Lieutenant~
+Title
+First Lieutenant~
+First Lieutenant~
+Title
+First Lieutenant~
+First Lieutenant~
+Title
+First Lieutenant~
+First Lieutenant~
+Title
+Captain~
+Captain~
+Title
+Captain~
+Captain~
+Title
+Captain~
+Captain~
+Title
+Captain~
+Captain~
+Title
+Major~
+Major~
+Title
+Major~
+Major~
+Title
+Major~
+Major~
+Title
+Major~
+Major~
+Title
+Lieutenant Colonel~
+Lieutenant Colonel~
+Title
+Lieutenant Colonel~
+Lieutenant Colonel~
+Title
+Lieutenant Colonel~
+Lieutenant Colonel~
+Title
+Lieutenant Colonel~
+Lieutenant Colonel~
+Title
+Colonel~
+Colonel~
+Title
+Colonel~
+Colonel~
+Title
+Colonel~
+Colonel~
+Title
+Colonel~
+Colonel~
+Title
+Brigadier-General~
+Brigadier-General~
+Title
+Brigadier-General~
+Brigadier-General~
+Title
+Brigadier-General~
+Brigadier-General~
+Title
+Major-General~
+Major-General~
+Title
+Major-General~
+Major-General~
+Title
+Major-General~
+Major-General~
+Title
+Lieutenant-General~
+Lieutenant-General~
+Title
+Lieutenant-General~
+Lieutenant-General~
+Title
+Lieutenant-General~
+Lieutenant-General~
+Title
+General~
+General~
+Title
+General~
+General~
+Title
+General~
+General~
+Title
+General of the Space Force~
+General of the Space Force~
+Title
+General of the Space Force~
+General of the Space Force~
+Title
+Avatar~
+Avatar~
+Title
+Neophyte~
+Neophyte~
+Title
+Acolyte~
+Acolyte~
+Title
+Creator~
+Creator~
+Title
+Savior~
+Savior~
+Title
+Demi God~
+Demi Goddess~
+Title
+Immortal~
+Immortal~
+Title
+Lesser God~
+Lesser Goddess~
+Title
+God~
+Goddess~
+Title
+Greater God~
+Greater Goddess~
+Title
+Ascendant God~
+Acendant Goddess~
+Title
+Exalted God~
+Exalted Goddess~
+Title
+Ancient One~
+Ancient One~
+Title
+Eternal One~
+Eternal One~
+Title
+Infinite One~
+Infinite One~
+Title
+Supreme Entity~
+Supreme Entity~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+Title
+(null)~
+(null)~
+End

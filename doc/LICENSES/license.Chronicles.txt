@@ -1,0 +1,137 @@
+/-----------------------------------------------------------------------------\
+| Chronicles Codebase     Copyright 2001, 2002 by Orion Elder (Brad Ensley)   |
+>-----------------------------------------------------------------------------<
+| Chronicles code contributors: Orion Elder, Sadiq, Samson and Trax           |
+\-----------------------------------------------------------------------------/
+
+	This license is written in a fashion to protect the rights of the 
+contributors and copyright holders, while still granting the public use of the 
+codebase.
+	Before we continue let me assure you... there is no warranty on this
+codebase whether implied or stated. The codebase is not under any warranties.
+In using this codebase you assume full responsibility for any consequences that
+may arise from the use of this codebase.
+	By using this codebase, you assume all responsibility for assuring that
+all applicable licenses are followed.
+	Also, I personally request that if you use this codebase, that you go
+to the MUD Planet MUD Forums (http://forums.mudplanet.org) and sign up. The
+membership is free, and the Chronicles forum at that location is the certified
+source for help with the Chronicles Codebase.
+	Thank you for your interest.
+
+-Orion Elder
+
+The Chronicles Codebase License Terms and Conditions Follow:
+
+     *-----*
+
+Common Terms:
+
+"We, Our"	- Refers to the licensor(s).
+"You"		- Refers to the licensee(s).
+"Codebase"	- Refers to the Chronicles Codebase.
+"Code"		- Refers to any machine-readable source code.
+"DFS"		- Refers to 'donations for services.' Meaning, donations can not
+		  be accepted in return for a service rendered within the game.
+
+1.  If you do not agree to this license in its entirety, you are not authorized
+    to use this codebase in part or in whole. As you have not signed anything,
+    you are not required to agree to this license, however nothing else grants
+    you the rights to use, modify, copy, or distribute this codebase, or any
+    other rights contained herein or otherwise in relation to this code.
+
+2.  By agreeing to this license you recursively agree to all licenses that
+    precede this one. This list includes but is not limited to the SMAUG, Merc
+    and DikuMUD licenses. If you are unable to agree to all of the necessary
+    licenses you may not use this codebase.
+
+3.  By contributing code to this codebase you authorize the use, distribution,
+    copying, and modification of said code, under the terms and conditions of
+    this license. This authorization can not be revoked for any reason.
+
+4.  We reserve the right to modify, revoke, or add to this license at any time, 
+    without notice. Any of the above resulting in changes to an existing or
+    previous license will become effective immediately. In the event that one
+    of said changes affects you, you are required to comply immediately.
+    Failure to do so will result in the revocation of your license to use this
+    codebase.
+
+5.  The use of any illegal and/or contraband material(s) within this codebase
+    is prohibited. This includes but is not limited to code, areas, and/or
+    game files.
+
+6.  To distribute this codebase requires the express consent of Orion Elder 
+    (Brad Ensley). This right may be revoked at any time, for any reason.
+
+7.  The creation of derivatives requires the express consent of Orion Elder
+    (Brad Ensley). The distribution of derivative codebase(s) is also subject
+    to section six (6) of this license. Any derivative(s) must be in total
+    compliance with the most up to date version of this license.
+
+8.  An electronic mail (e-mail) to the most current address listed for the
+    following individuals is required, with notification of the use of this
+    codebase, and where it is being used (site location):
+
+	Orion Elder	(Brad Ensley)
+	Sadiq		(Real Name Withheld)
+	Samson		(Roger Libiez)
+	Trax		(Chris Fewtrell)
+
+    The only exception to the required e-mail is if you join the MUD Planet
+    MUD Forums (http://forums.mudplanet.org), and post a message providing the
+    information required.
+
+9.  No payment(s), fee(s), required donation(s), or DFSs may be accepted by any
+    entity, in relation to this codebase or its use. This includes but is not
+    limited to the cost to distribute, modify, use, or copy. This section very
+    strongly relates to the acceptance of payment for in-game matters, which is
+    _STRICTLY_ prohibited.
+
+10. All copyrights and copyright notices must remain intact, as distributed.
+
+11. You may not block access to the Chronicles development site:
+    13c.mudplanet.org
+
+12. Mention that the Chronicles codebase is derived from SMAUG is required on
+    the login screen. This satisfies both Our criteria and the SMAUG criteria.
+
+13. The credits command must remain intact, and must call the 'help credits'
+    help file entry as distributed. You may not alter the credits help file
+    entry, except as to rename it only in the event that you are preparing to
+    release an authorized derivative codebase.
+
+14. The complete text of all licenses must remain within the 'doc' folder, in
+    their unaltered state.
+
+15. THERE IS NO WARRANTY ON THIS CODEBASE. BY USING THIS CODEBASE YOU ASSUME
+    FULL RESPONSIBILITY FOR ANY PROBLEMS THAT MAY ARISE FROM ITS USE.
+
+     *-----*
+
+End of Chronicles Codebase License Terms and Conditions.
+
+
+The below is quoted directly from the SMAUG Codebase license:
+
+     *-----*
+
+Diku Mud is copyright (C) 1990, 1991 by Sebastian Hammer, Michael Seifert,
+Hans Henrik St{rfeldt, Tom Madsen, and Katja Nyboe.  Their license agreement
+is in the file 'license.diku'.
+
+Merc Diku Mud is a derivative of the original Diku Mud.  Merc Diku Mud contains
+substantial enhancements to Diku Mud.  These enhancements are copyright 1992,
+1993 by Michael Chastain, Michael Quan, and Mitchell Tse.  Their license
+agreement is in the file 'license.merc'.
+
+SMAUG is a derivative of the version 2.1 distribution of Merc Diku Mud.
+SMAUG contains substantial enhancements to Merc Diku Mud, including some
+features of the original Diku Mud that were removed by the Merc team.
+
+     *-----*
+
+End of quote.
+
+The Chronicles Codebase makes no attempt to remain compatible with any previous
+codebase(s) in any way shape or form, including previous versions of the
+Chronicles Codebase.
